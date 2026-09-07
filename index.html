@@ -280,8 +280,7 @@
     window.onload = function() {
         userName = localStorage.getItem('computerBasicsStudentName');
         if(!userName) {
-            window.location.href = 'index.html';
-            return;
+            userName = 'طالب';
         }
         showSlide();
     };
